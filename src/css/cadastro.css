@@ -2,7 +2,6 @@
 
 header {
   display: flex;
-
   flex-direction: row;
   justify-content: start;
 }
@@ -10,18 +9,20 @@ header {
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .header__div--titulo h1 {
   font-size: 22px;
   font-weight: 700;
   color: #212529;
 }
+
 .header__div--titulo span {
   font-size: 17px;
   font-weight: 700;
   color: #ff2253;
 }
 
-.form__cadastro {
+.body__form--cadastro {
   height: 500px;
   gap: 20px;
   display: flex;
