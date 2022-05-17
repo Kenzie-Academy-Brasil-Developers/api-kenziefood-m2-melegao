@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+.body__div--mascaraModalCadastro {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 99vh;
+  width: 99vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.div__div--cadastroModalProduto {
+  margin-top: 7%;
+  flex-direction: column;
+  background-color: white;
+  width: 500px;
+  height: 685px;
+  border-radius: 5px;
+}
+.div__div--cadastroModalCabecalho {
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.div__h3--tituloModalCadastro {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.div__button--botaoModalFechar {
+  background-color: #e9ecef;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+.div__form--formularioModalCadastro {
+  padding-top: 15px;
+}
+.form__div--nomeModalCadastro {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.div__h3--nomeModalCadastro {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.div__input--digitarModalNome {
+  border: 5px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  width: 95%;
+  height: 52px;
+  border: 1.5px solid #dee2e6;
+}
+.form__div--descricaoModalCadastro {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.div__h3--descricaoModalCadastro {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.div_input--descricaoModalCadastro {
+  border: 5px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  width: 95%;
+  height: 80px;
+  border: 1.5px solid #dee2e6;
+}
+
+.form__h3--categoriasModalCadastro {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.form__div--catedoriasModalCadastro {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form__div--valorModalCadastro {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.div__h3--valorModalCadastro {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.div__input--valorModalCadastro {
+  border: 5px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  width: 95%;
+  height: 52px;
+  border: 1.5px solid #dee2e6;
+}
+
+.form__div--imagemModalCadastro {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.div__h3--imagemModalCadastro {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.div__input--imagemModalCadastro {
+  border: 5px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  width: 95%;
+  height: 52px;
+  border: 1.5px solid #dee2e6;
+}
+
+.div__button--botaoModalCadastro {
+  border: none;
+  border-radius: 20px;
+  width: 91%;
+  height: 52px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #ff2253;
+  color: white;
+}
+.div__label--catedoriasModalCadastro {
+  font-size: 14px;
+  color: #868e96;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div__input--catedoriasModalCadastro {
+  text-size-adjust: 14px;
+  visibility: hidden;
+  width: 0;
+  margin: 0;
+}
+.div__input-box--catedoriasModalCadastro {
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  border: 1.5px solid #dee2e6;
+  width: 136px;
+  height: 40px;
+  border: 1.5px solid #dee2e6;
+}
+
+@media (max-width: 900px) {
+  .div__input-box--catedoriasModalCadastro {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: 1.5px solid #dee2e6;
+    width: 90px;
+    height: 40px;
+  }
+}
