@@ -1,18 +1,18 @@
 import { Produtos } from "../controller/Produtos.js"
 
-await Produtos.listarTodosProdutos()
+criarCards ();
 
-criarCards ()
+async function criarCards () {
 
-function criarCards () {
+    const produtos = await Produtos.listarTodosProdutos()
 
-    const divCard = document.getElementById('main__section--container')
-    divCard.innerHTML = ``
+    const divCard = document.getElementById('main__section--container');
+    divCard.innerHTML = ``;
 
-    Produtos.dataBaseProdutos.forEach((elem) => {
-        const cardProduto = document.createElement('article')
-        cardProduto.setAttribute('class', 'section__article--card')
-        cardProduto.setAttribute('id', elem.id)
+    produtos.forEach((elem) => {
+        const cardProduto = document.createElement('article');
+        cardProduto.setAttribute('class', 'section__article--card');
+        cardProduto.setAttribute('id', elem.id);
         
         cardProduto.innerHTML = `
         <img class="article__img--produto" src=${elem.imagem} alt="">
@@ -28,7 +28,7 @@ function criarCards () {
             <button class="div__button--addCarrinho"> <img src="/src/imagens/botao-carrinho.png" alt="">
             </button>
         </div>
-        `
-        divCard.appendChild(cardProduto)
+        `;
+        divCard.appendChild(cardProduto);
     })
 }
