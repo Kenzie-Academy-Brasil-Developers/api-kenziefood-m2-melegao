@@ -1,10 +1,10 @@
-import { Produtos } from "../controller/Produtos.js"
+import { Produtos } from "../controller/Produtos.js";
 
 criarCards ();
 
 async function criarCards () {
 
-    const produtos = await Produtos.listarTodosProdutos()
+    const produtos = await Produtos.listarTodosProdutos();
 
     const divCard = document.getElementById('main__section--container');
     divCard.innerHTML = ``;
@@ -30,5 +30,6 @@ async function criarCards () {
         </div>
         `;
         divCard.appendChild(cardProduto);
-    })
+    });
+    
 }
