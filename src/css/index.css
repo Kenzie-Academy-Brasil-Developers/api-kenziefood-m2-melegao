@@ -5,16 +5,15 @@
     body {
         font-family: 'Poppins', sans-serif;
     }
-    
+
     header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 20px 100px;
         align-items: center;
-        
     }
-    
+
     .header__div--titulo h1 {
         font-size: 22px;
         font-weight: 700;
@@ -44,25 +43,24 @@
         font-weight: 500;
         font-size: 12px;
         background-color: #FF2253;
-        color: white;
+        color: #FFFFFF;
         padding: 15px 20px;
         border-radius: 32px;
         cursor: pointer;
     }
-    
+
     .div__form--pesquisa {
         background-color: #E9ECEF;
         margin-right: 15px;
-    
     }
-    
+
     .form__button--pesquisar {
         padding: 10px;
         background-color: none;
         border: none;
         cursor: pointer;
     }
-    
+
     .form__input--pesquisar {
         background-color: #E9ECEF;
         border: none;
@@ -76,17 +74,13 @@
         display: flex;
         margin: 10px 100px;
         justify-content: space-between;
-        
-        
     }
 
     main {
         display: flex;
         flex-direction: column;
-
     }
 
-    
     .nav__ul--categorias {
         display: flex;
         gap: 20px;
@@ -175,8 +169,8 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        line-height: 24px;     /* fallback */
-        -webkit-line-clamp: 2; /* number of lines to show */
+        line-height: 24px;
+        -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         font-weight: 400;
         font-size: 14px;
@@ -263,8 +257,8 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        line-height: 24px;     /* fallback */
-        -webkit-line-clamp: 1; /* number of lines to show */
+        line-height: 24px;
+        -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
     }
 
@@ -334,9 +328,7 @@
     .div__div--modalCarrinho{
         display: none;
     }
-
-
-
+    
 }
 
 @media (max-width: 900px) {
@@ -353,7 +345,7 @@
         flex-direction: column;
         gap: 10px;
     }
-    
+
     .header__div--loginCadastro{
         position: fixed;
         top: 15px;
@@ -361,16 +353,11 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        /* display: flex;
-        justify-content: flex-end;
-        gap: 10px; */
-
     }
 
     .div__p--cadastro{
         font-size: 12px;
         margin-bottom: 5px;
-        
     }
 
     .div__p--login{
@@ -382,7 +369,6 @@
     .div__form--pesquisa {
         background-color: #E9ECEF;
         margin-right: 15px;
-
     }
 
     .form__button--pesquisar {
@@ -390,7 +376,7 @@
         background-color: none;
         border: none;
     }
-    
+
     .form__input--pesquisar {
         background-color: #E9ECEF;
         border: none;
@@ -423,8 +409,7 @@
         margin-left: 18px;
         margin-bottom: 18px;
     }
-
-
+    
     nav {
         margin-bottom: 18px;
     }
@@ -436,7 +421,6 @@
     }
 
     .ul__li {
-        background-color: green;
         font-family: 'Inter', sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -455,7 +439,6 @@
         padding: 15px 20px;
         border-radius: 20px;
         align-self: center;
-
     }
 
     .ul__li--panificadora {
@@ -496,7 +479,6 @@
         gap: 20px;
         overflow: scroll;
         scrollbar-width: none;
-
     }
 
     .section__article--card {
@@ -513,7 +495,7 @@
     .article__h3--tituloProduto {
         font-size: 16px;
         font-weight: 500;
-        color: black;
+        color: #000000;
     }
 
     .article__p--descricaoProduto {
@@ -523,8 +505,8 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        line-height: 24px;     /* fallback */
-        -webkit-line-clamp: 2; /* number of lines to show */
+        line-height: 24px;
+        -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
     }
 
@@ -566,15 +548,14 @@
     .div__button--modalCarrinho{
         background-color: #FF2253;
         border: none;
-        color: white;
+        color: #FFFFFF;
         width: 100vw;
         height: 60px;
         font-size: 18px;
         font-weight: 700;
     }
-
-    /* A partir daqui é o modal carrinho. */
-    /* Para aparecer, retirar display: none. */
+    
+    
     .div__div--modalCarrinho{
         display: none;
         position: absolute;
@@ -583,7 +564,7 @@
         right: 15px;
         width: 90vw;
         height: 90vh;
-        background-color: white;
+        background-color: #FFFFFF;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
@@ -595,7 +576,7 @@
         height: 60px;
         padding-left: 20px;
         padding-right: 20px;
-        background-color:  #FF2253;
+        background-color: #FF2253;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
@@ -603,13 +584,13 @@
     .div__h2--tituloModalCarrinho{
         font-weight: 500;
         font-size: 14px;
-        color: #ffffff;
+        color: #FFFFFF;
     }
 
     .div__h2--fecharModalCarrinho{
         font-weight: 700;
         font-size: 16px;
-        color: white;
+        color: #FFFFFF;
     }
 
     .div__div--cardModalCarrinho{
@@ -636,12 +617,11 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        line-height: 20px;     /* fallback */
-        -webkit-line-clamp: 1; /* number of lines to show */
+        line-height: 20px;
+        -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         font-weight: 500;
         font-size: 14px;
-
     }
 
     .div__span--categoriaModalCarrinho{
@@ -656,7 +636,7 @@
     }
 
     .div__button--botaoExcluirModalCarrinho{
-        background-color: white;
+        background-color: #FFFFFF;
         border: none;
         cursor: pointer;
     }
@@ -674,7 +654,7 @@
         font-weight: 700;
         font-size: 13px;
     }
-    
+
     .div__h4--quantidadeModalItens{
         font-weight: 700;
         font-size: 13px;
@@ -695,12 +675,12 @@
         font-weight: 700;
         font-size: 13px;
     }
-    
+
     .div__h4--valorModalTotal{
         font-weight: 700;
         font-size: 13px;
         position: inherit;
         left: 83%;
     }
-
-    }
+    
+}
