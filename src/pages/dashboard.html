@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie Food - Dashboard</title>
+    <link rel="stylesheet" href="/src/css/resetDashboard.css">
+    <link rel="stylesheet" href="/src/css/dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="header__div--titulo">
+            <h1 class="div__h1--titulo">Kenzie <span class="div__span--titulo">Food</span></h1>
+        </div>
+        <div class="header__div--areaDeBusca">
+            <form action="" class="div__form--buscarProduto">
+                <button class="form__button--pesquisar"><img src="/src/" alt="">Pes</button>
+                <input class="form__input--pesquisar" type="text" name="" id="" placeholder="Pesquisar por produto">
+            </form>
+            <button class="div__button--usuario"><img src="/src/imagens/dashboard/usuario.png" alt=""></button>
+        </div>
+    </header>
+
+    <nav class="body__nav">
+        <ul class="nav__ul--categorias">
+            <li class="ul__li ul__li--todos ul__li--selecionado">Todos</li>
+            <li class="ul__li ul__li--panificadora">Panificadora</li>
+            <li class="ul__li ul__li--frutas">Frutas</li>
+            <li class="ul__li ul__li--bebidas">Bebidas</li>
+        </ul>
+        <button class="nav__button--addProduto">Adicionar novo produto</button>
+    </nav>
+
+    <main>
+        <div class="main__div--legendas">
+            <p class="div__p--legenda">Produto</p>
+            <p class="div__p--legenda">Categorias</p>
+            <p class="div__p--legenda">Descrição</p>
+            <p class="div__p--legenda">Ações</p>
+        </div>
+        <!-- ATENÇÃO: DIV PARA SER UTILIZADA NO DOM -->
+        <section class="main__section--cards"> 
+
+            <div class="section__div--card">
+                <div class="div__div--cardInicio">
+                    <img class="div__img--produto" src="/src/imagens/dashboard/panqueca.png" alt="img">
+                    <div><h2 class="div__h2--titulo">Panqueca de banana com aveia</h2></div>
+                </div>
+                <div class="div__div--categorias">
+                    <span class="div__span--categoria">Bebidas</span>
+                    <span class="div__span--categoria">Frutas</span>
+                </div>
+                <div>
+                    <p class="div__p--descricao">Esta receita serve muito bem 2 pessoas...</p>
+                </div>
+                <div class="div__div--botoes">
+                    <button class="div__button--botaoLista"><img src="/src/imagens/dashboard/botao-editar.png" alt=""></button>
+                    <button class="div__button--botaoLista"><img src="/src/imagens/dashboard/botao-excluir.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="section__div--card">
+                <div class="div__div--cardInicio">
+                    <img class="div__img--produto" src="/src/imagens/dashboard/panqueca.png" alt="img">
+                    <h2 class="div__h2--titulo">Panqueca de banana com aveia</h2>
+                </div>
+                <div class="div__div--categorias">
+                    <span class="div__span--categoria">Bebidas</span>
+                    <span class="div__span--categoria">Frutas</span>
+                </div>
+                <div>
+                    <p class="div__p--descricao">Esta receita serve muito bem 2 pessoas...</p>
+                </div>
+                <div class="div__div--botoes">
+                    <button class="div__button--botaoLista"><img src="/src/imagens/dashboard/botao-editar.png" alt=""></button>
+                    <button class="div__button--botaoLista"><img src="/src/imagens/dashboard/botao-excluir.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="section__div--card">
+                <div class="div__div--cardInicio">
+                    <img class="div__img--produto" src="/src/imagens/dashboard/panqueca.png" alt="img">
+                    <h2 class="div__h2--titulo">Panqueca de banana com aveia</h2>
+                </div>
+                <div class="div__div--categorias">
+                    <span class="div__span--categoria">Bebidas</span>
+                    <span class="div__span--categoria">Frutas</span>
+                </div>
+                <div>
+                    <p class="div__p--descricao">Esta receita serve muito bem 2 pessoas...</p>
+                </div>
+                <div class="div__div--botoes">
+                    <button class="div__button--botaoLista"><img src="/src/imagens/dashboard/botao-editar.png" alt=""></button>
+                    <button class="div__button--botaoLista"><img src="/src/imagens/dashboard/botao-excluir.png" alt=""></button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
