@@ -160,12 +160,19 @@
         gap: 10px;
     }
 
+    .article__img--produto{
+        border-radius: 15px;
+        width: 300px;
+        height: 200px;
+    }
+
     .article__h3--tituloProduto {
         font-weight: 500;
         font-size: 16px;
     }
 
     .article__p--descricaoProduto{
+        height: 50px;
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
@@ -490,6 +497,8 @@
 
     .article__img--produto {
         border-radius: 15px;
+        width: 300px;
+        height: 200px;
     }
 
     .article__h3--tituloProduto {

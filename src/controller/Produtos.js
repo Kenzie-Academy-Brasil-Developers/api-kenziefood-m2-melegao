@@ -2,6 +2,8 @@ class Produtos {
 
     static BASE_URL = 'https://api-kenzie-food.herokuapp.com';
 
+    static dataBaseProdutos = []
+
     static async listarTodosProdutos() {
 
         const URL = `${this.BASE_URL}/products`;
@@ -11,6 +13,8 @@ class Produtos {
         });
 
         const dadosRetornados = await resposta.json();
+
+        Produtos.dataBaseProdutos = dadosRetornados
 
         return dadosRetornados;
 
@@ -89,3 +93,6 @@ class Produtos {
     }
 
 }
+
+
+export {Produtos}
