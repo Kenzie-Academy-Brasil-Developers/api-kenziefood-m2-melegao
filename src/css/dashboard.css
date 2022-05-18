@@ -138,7 +138,7 @@
         border-radius: 32px;
         cursor: pointer;
     }
-
+  
     main {
         margin-top: 50px;
         padding-left: 100px;
@@ -225,7 +225,7 @@
         border-radius: 20px;
         cursor: pointer;
     }
-
+  
 }
 
 @media (max-width: 900px) {
@@ -522,7 +522,7 @@
 .div__div--StatusErroModal {
     margin-top: 7%;
     flex-direction: column;
-    background-color: white;
+    background-color: #FFFFFF;
     width: 500px;
     height: 170px;
     border-radius: 5px;
@@ -613,3 +613,14 @@
     }
 
 } */
+
+    .div__button--botaoLista{
+        border: none;
+    }
+
+
+    .main__div--legendas{
+        display: none;
+    }
+
+}
