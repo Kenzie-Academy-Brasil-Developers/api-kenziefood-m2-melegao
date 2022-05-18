@@ -4,6 +4,7 @@ body {
   display: flex;
   font-family: "Inter", sans-serif;
 }
+
 .body__div--mascaraModalExcluir {
   display: flex;
   justify-content: center;
@@ -18,14 +19,14 @@ body {
 .div__div--ExcluirModalProduto {
   margin-top: 7%;
   flex-direction: column;
-  background-color: white;
+  background-color: #FFFFFF;
   width: 500px;
   height: 270px;
   border-radius: 5px;
   align-items: center;
   justify-content: center;
-
 }
+
 .div__div--ExcluirModalCabecalho {
   border-radius: 5px;
   background-color: #f8f9fa;
@@ -33,30 +34,27 @@ body {
   justify-content: space-between;
   padding: 15px;
   align-items: center;
-
-
 }
 
 .div__h3--tituloModalExcluir {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  
 }
+
 .div__button--botaoModalFechar {
   background-color: #e9ecef;
   border: none;
   width: 30px;
   height: 30px;
   border-radius: 4px;
-  
 }
+
 .div__div--BoxModalExcluir{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .div__h3--nomeModalExcluir {
@@ -66,7 +64,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 
 .div__button--botaoModalExcluir {
     border: none;
@@ -81,34 +78,34 @@ body {
     margin-top: 20px;
     background-color: #f8f9fa;
     color: #868e96;
-  }
-.div__div--botaoModalExcluir{
+}
+
+.div__div--botaoModalExcluir {
     margin-top: 20px;
     gap: 20px;
     width: 80%;
-
 }  
 
-
 @media (max-width: 900px) {
-    .div__button--botaoModalExcluir {
-        border: none;
-        border-radius: 20px;
-        flex-direction: row;
-        width: 40%;
-        height: 52px;
-        font-style: 16px;
-        margin-left: 20px;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-        background-color: #f8f9fa;
-        color: #868e96;
-      }
+  
+  .div__button--botaoModalExcluir {
+      border: none;
+      border-radius: 20px;
+      flex-direction: row;
+      width: 40%;
+      height: 52px;
+      font-style: 16px;
+      margin-left: 20px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      background-color: #f8f9fa;
+      color: #868e96;
+  }
 
   .div__div--botaoModalExcluir{
     margin-top: 20px;
     gap: 20px;
-
-}  
+  }
+  
 }
