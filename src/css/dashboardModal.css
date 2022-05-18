@@ -4,6 +4,7 @@ body {
   display: flex;
   font-family: "Inter", sans-serif;
 }
+
 .body__div--mascaraModalCadastro {
   display: flex;
   justify-content: center;
@@ -18,11 +19,12 @@ body {
 .div__div--cadastroModalProduto {
   margin-top: 7%;
   flex-direction: column;
-  background-color: white;
+  background-color: #FFFFFF;
   width: 500px;
   height: 685px;
   border-radius: 5px;
 }
+
 .div__div--cadastroModalCabecalho {
   border-radius: 5px;
   background-color: #f8f9fa;
@@ -36,6 +38,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
+
 .div__button--botaoModalFechar {
   background-color: #e9ecef;
   border: none;
@@ -43,13 +46,16 @@ body {
   height: 30px;
   border-radius: 4px;
 }
+
 .div__form--formularioModalCadastro {
   padding-top: 15px;
 }
+
 .form__div--nomeModalCadastro {
   padding-top: 20px;
   padding-left: 20px;
 }
+
 .div__h3--nomeModalCadastro {
   font-size: 14px;
   padding-bottom: 5px;
@@ -63,14 +69,17 @@ body {
   height: 52px;
   border: 1.5px solid #dee2e6;
 }
+
 .form__div--descricaoModalCadastro {
   padding-top: 20px;
   padding-left: 20px;
 }
+
 .div__h3--descricaoModalCadastro {
   font-size: 14px;
   padding-bottom: 5px;
 }
+
 .div_input--descricaoModalCadastro {
   border: 5px;
   background-color: #f8f9fa;
@@ -99,7 +108,8 @@ body {
   padding-top: 20px;
   padding-left: 20px;
 }
-.div__h3--valorModalCadastro {
+
+.div__label--valorModalCadastro {
   font-size: 14px;
   padding-bottom: 5px;
 }
@@ -117,10 +127,12 @@ body {
   padding-top: 20px;
   padding-left: 20px;
 }
-.div__h3--imagemModalCadastro {
+
+.div__label--imagemModalCadastro {
   font-size: 14px;
   padding-bottom: 5px;
 }
+
 .div__input--imagemModalCadastro {
   border: 5px;
   background-color: #f8f9fa;
@@ -138,8 +150,9 @@ body {
   margin-left: 20px;
   margin-top: 20px;
   background-color: #ff2253;
-  color: white;
+  color: #FFFFFF;
 }
+
 .div__label--catedoriasModalCadastro {
   font-size: 14px;
   color: #868e96;
@@ -156,6 +169,7 @@ body {
   width: 0;
   margin: 0;
 }
+
 .div__input-box--catedoriasModalCadastro {
   border-radius: 10px;
   background-color: #f8f9fa;
@@ -166,6 +180,7 @@ body {
 }
 
 @media (max-width: 900px) {
+  
   .div__input-box--catedoriasModalCadastro {
     border-radius: 10px;
     background-color: #f8f9fa;
@@ -173,4 +188,5 @@ body {
     width: 90px;
     height: 40px;
   }
+  
 }
