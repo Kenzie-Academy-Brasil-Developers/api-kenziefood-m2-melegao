@@ -56,7 +56,7 @@ body {
   padding-left: 20px;
 }
 
-.div__h3--nomeModalCadastro {
+.div_label--nomeModalCadastro {
   font-size: 14px;
   padding-bottom: 5px;
 }
@@ -75,7 +75,7 @@ body {
   padding-left: 20px;
 }
 
-.div__h3--descricaoModalCadastro {
+.div__label--descricaoModalCadastro {
   font-size: 14px;
   padding-bottom: 5px;
 }
