@@ -70,7 +70,7 @@
         font-size: 16px;
     }
 
-    .body--conteudoPrincipal{
+    .body__div--conteudoPrincipal{
         display: flex;
         margin: 10px 100px;
         justify-content: space-between;
@@ -596,7 +596,7 @@
         color: #FFFFFF;
     }
 
-    .div__h2--fecharModalCarrinho{
+    .div__p--fecharModalCarrinho{
         font-weight: 700;
         font-size: 16px;
         color: #FFFFFF;
