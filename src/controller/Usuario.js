@@ -31,9 +31,9 @@ class Usuario {
             },
             body: JSON.stringify(dadosDeLogin)
         });
-
-        const dadosRetornados = await resposta.json();
-
+               
+        const dadosRetornados = {status: resposta.status, token: await resposta.json()};
+    
         return dadosRetornados;
 
     }
