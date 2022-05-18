@@ -50,11 +50,11 @@ body {
 }
 
 .div__div--BoxModalExcluir{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .div__h3--nomeModalExcluir {
@@ -80,27 +80,26 @@ body {
     color: #868e96;
 }
 
-.div__div--botaoModalExcluir {
+.div__div--botaoModalExcluir{
     margin-top: 20px;
     gap: 20px;
     width: 80%;
 }  
 
 @media (max-width: 900px) {
-  
   .div__button--botaoModalExcluir {
-      border: none;
-      border-radius: 20px;
-      flex-direction: row;
-      width: 40%;
-      height: 52px;
-      font-style: 16px;
-      margin-left: 20px;
-      align-items: center;
-      justify-content: center;
-      margin-top: 20px;
-      background-color: #f8f9fa;
-      color: #868e96;
+    border: none;
+    border-radius: 20px;
+    flex-direction: row;
+    width: 40%;
+    height: 52px;
+    font-style: 16px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    color: #868e96;
   }
 
   .div__div--botaoModalExcluir{
