@@ -16,34 +16,34 @@
         box-shadow: 0px 0px 40px -20px rgba(0,0,0,0.25);
     }
 
-    .div__h1--titulo{
+    .div__h1--titulo {
         color: #212529;
         font-weight: 700px;
         font-size: 21px;
     }
 
-    .div__span--titulo{
+    .div__span--titulo {
         color: #FF2253;
         font-weight: 700px;
         font-size: 17px;
     }
 
-    .header__div--areaDeBusca{
+    .header__div--areaDeBusca {
         display: flex;
         gap: 10px;
     }
 
-    .div__form--buscarProduto{
+    .div__form--buscarProduto {
         background-color: #E9ECEF;
         padding: 5px 10px;
     }
 
-    .form__button--pesquisar{
+    .form__button--pesquisar {
         border: none;
         cursor: pointer;
     }
 
-    .form__input--pesquisar{
+    .form__input--pesquisar {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 400;
@@ -53,14 +53,14 @@
         border: none;
     }
 
-    .div__button--usuario{
+    .div__button--usuario {
         border: none;
         padding: 0px 0px;
         border-radius: 20px;
         cursor: pointer;
     }
 
-    .body__nav{
+    .body__nav {
         display: flex;
         justify-content: space-between;
         margin-top: 30px;
@@ -69,12 +69,12 @@
         margin-bottom: 30px;
     }
 
-    .nav__ul--categorias{
+    .nav__ul--categorias {
         display: flex;
         gap: 15px;
     }
 
-    .ul__li{
+    .ul__li {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -83,7 +83,7 @@
         cursor: pointer;
     }
 
-    .ul__li--selecionado{
+    .ul__li--selecionado {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -94,7 +94,7 @@
         cursor: pointer;
     }
 
-    .ul__li--panificadora{
+    .ul__li--panificadora {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -105,7 +105,7 @@
         cursor: pointer;
     }
 
-    .ul__li--frutas{
+    .ul__li--frutas {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -116,7 +116,7 @@
         cursor: pointer;
     }
 
-    .ul__li--bebidas{
+    .ul__li--bebidas {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -127,7 +127,7 @@
         cursor: pointer;
     }
 
-    .nav__button--addProduto{
+    .nav__button--addProduto {
         font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -138,33 +138,33 @@
         border-radius: 32px;
         cursor: pointer;
     }
-
-    main{
+  
+    main {
         margin-top: 50px;
         padding-left: 100px;
         padding-right: 100px;
     }
 
-    .main__div--legendas{
+    .main__div--legendas {
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
     }
     
-    .div__p--legenda{
+    .div__p--legenda {
         font-weight: 400;
         font-size: 14px;
         color: #868E96;
         padding: 10px 20px;
     }
 
-    .main__section--cards{
+    .main__section--cards {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
 
-    .section__div--card{
+    .section__div--card {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -179,25 +179,25 @@
         gap: 10px;
     }
 
-    .div__img--produto{
+    .div__img--produto {
         width: 32px;
         height: 32px;
         border-radius: 20px;
     }
 
-    .div__h2--titulo{
+    .div__h2--titulo {
         font-weight: 500;
         font-size: 14px;
         color: #212529;
     }
 
-    .div__div--categorias{
+    .div__div--categorias {
         display: flex;
         gap: 15px;
         margin-right: 100px;
     }
 
-    .div__span--categoria{
+    .div__span--categoria {
         font-weight: 400;
         font-size: 14px;
         color: #868E96;
@@ -206,18 +206,18 @@
         padding: 10px 15px;
     }
 
-    .div__p--descricao{
+    .div__p--descricao {
         font-weight: 400;
         font-size: 14px;
         color: #868E96;
     }
 
-    .div__div--botoes{
+    .div__div--botoes {
         display: flex;
         gap: 10px;
     }
 
-    .div__button--botaoLista{
+    .div__button--botaoLista {
         border: none;
         background-color: #F8F9FA;
         width: 38px;
@@ -225,8 +225,7 @@
         border-radius: 20px;
         cursor: pointer;
     }
-
-
+  
 }
 
 @media (max-width: 900px) {
@@ -245,20 +244,19 @@
         gap: 10px;
     }
 
-    .div__h1--titulo{
+    .div__h1--titulo {
         color: #212529;
         font-weight: 700px;
         font-size: 21px;
     }
 
-
-    .div__span--titulo{
+    .div__span--titulo {
         color: #FF2253;
         font-weight: 700px;
         font-size: 17px;;
     }
 
-    .div__button--usuario{
+    .div__button--usuario {
         position: fixed;
         top: 10px;
         left: 80%;
@@ -266,7 +264,7 @@
         border-radius: 40px;
     }
 
-    .div__form--buscarProduto{
+    .div__form--buscarProduto {
         margin-top: 15px;
         margin-bottom: 20px;
         background-color: #E9ECEF;
@@ -274,7 +272,7 @@
         border-radius: 20px;
     }
 
-    .form__input--pesquisar{
+    .form__input--pesquisar {
         background-color: #E9ECEF;
         border: none;
         width: 80%;
@@ -284,7 +282,7 @@
         font-size: 16px;
     }
 
-    .form__button--pesquisar{
+    .form__button--pesquisar {
         background-color: #E9ECEF;
         border: none;
     }
@@ -296,13 +294,13 @@
         margin-right: 10px;
     }
 
-    .nav__ul--categorias{
+    .nav__ul--categorias {
         display: flex;
         gap: 22px;
         overflow: scroll;
     }
 
-    .ul__li{
+    .ul__li {
         padding: 15px 20px;
         border-radius: 30px;
         font-family: 'Inter', sans-serif;
@@ -311,7 +309,7 @@
         margin-bottom: 12px;
     }
 
-    .ul__li--selecionado{
+    .ul__li--selecionado {
         padding: 15px 20px;
         border-radius: 30px;
         background-color: #FF2253;
@@ -322,7 +320,7 @@
         margin-bottom: 12px;
     }
 
-    .ul__li--panificadora{
+    .ul__li--panificadora {
         padding: 15px 20px;
         border-radius: 30px;
         background-color: #FFF7F4;
@@ -333,7 +331,7 @@
         margin-bottom: 12px;
     }
 
-    .ul__li--frutas{
+    .ul__li--frutas {
         padding: 15px 20px;
         border-radius: 30px;
         background-color: #FFF1F4;
@@ -344,7 +342,7 @@
         margin-bottom: 12px;
     }
 
-    .ul__li--bebidas{
+    .ul__li--bebidas {
         padding: 15px 20px;
         border-radius: 30px;
         background-color: #F3EEF5;
@@ -355,7 +353,7 @@
         margin-bottom: 12px;
     }
 
-    .nav__button--addProduto{
+    .nav__button--addProduto {
         background-color: #FF2253;
         padding: 15px 20px;
         border-radius: 20px;
@@ -367,59 +365,254 @@
         margin-bottom: 10px;
     }
 
-    .main__section--cards{
+    .main__section--cards {
         display: flex;
         overflow: scroll;
         gap: 20px;
     }
 
-    .section__div--card{
+    .section__div--card {
         display: flex;
         flex-direction: column;
         gap: 5px;
         margin-bottom: 13px;
     }
 
-    .div__img--produto{
+    .div__img--produto {
         width: 200px;
         border-radius: 10px;
     }
 
-    .div__span--categoria{
+    .div__span--categoria {
         font-size: 12px;
         font-weight: 400;
         color: #868E96;
     }
 
-    .div__h2--titulo{
+    .div__h2--titulo {
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        line-height: 24px;     /* fallback */
-        -webkit-line-clamp: 1; /* number of lines to show */
+        line-height: 24px;
+        -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         font-size: 16px;
         font-weight: 500;
         color: #000000;
     }
 
-    .div__p--descricao{
+    .div__p--descricao {
         font-size: 14px;
         font-weight: 400;
         color: #868E96;
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        line-height: 24px;     /* fallback */
-        -webkit-line-clamp: 2; /* number of lines to show */
+        line-height: 24px;
+        -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
     }
 
-    .div__div--botoes{
+    .div__div--botoes {
         display: flex;
         justify-content: flex-end;
         gap: 10px;
     }
+
+    .div__button--botaoLista {
+        border: none;
+    }
+
+    .main__div--legendas {
+        display: none;
+    }
+    
+}
+
+.body__div--mascaraModalStatusAdicionado {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+}
+  
+.div__div--StatusAdicionadoModal {
+    margin-top: 7%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__div--StatusAdicionadoModalCabecalho {
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+  
+.div__h3--tituloModalStatusAdicionado {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.div__button--botaoModalFechar {
+    background-color: #e9ecef;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.div__div--BoxModalStatusAdicionado {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div__h3--nomeModalStatusAdicionado {
+    font-size: 14px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__button--botaoModalStatusAdicionado {
+    border: none;
+    border-radius: 20px;
+    flex-direction: row;
+    width: 40%;
+    height: 52px;
+    font-style: 16px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    color: #868e96;
+}
+
+.div__div--ModalStatusAdicionado{
+    margin-top: 20px;
+    width: 100%;
+    height: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #39DF8F;
+}  
+
+.body__div--mascaraModalStatusErro { 
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+}
+  
+.div__div--StatusErroModal {
+    margin-top: 7%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__div--StatusErroModalCabecalho {
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+  
+.div__h3--tituloModalStatusErro {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+ }
+
+.div__button--botaoModalFechar {
+    background-color: #e9ecef;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.div__div--BoxModalStatusErro{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.div__h3--nomeModalStatusErro {
+    font-size: 14px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__button--botaoModalStatusErro {
+    border: none;
+    border-radius: 20px;
+    flex-direction: row;
+    width: 40%;
+    height: 52px;
+    font-style: 16px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    color: #868e96;
+}
+
+.div__div--ModalStatusErro{
+    margin-top: 20px;
+    width: 100%;
+    height: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #ff2253
+}  
+  
+/* @media (max-width: 900px) {
+    .div__button--botaoModalStatusAdicionado {
+        border: none;
+        border-radius: 20px;
+        flex-direction: row;
+        width: 40%;
+        height: 52px;
+        font-style: 16px;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+        color: #868e96;
+    }
+
+    .div__div--botaoModalExcluir{
+      margin-top: 20px;
+      gap: 20px;
+    }
+
+} */
 
     .div__button--botaoLista{
         border: none;
@@ -429,8 +622,5 @@
     .main__div--legendas{
         display: none;
     }
-
-
-    
 
 }
