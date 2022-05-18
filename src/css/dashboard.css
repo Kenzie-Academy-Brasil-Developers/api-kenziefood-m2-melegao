@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (min-width: 901px) {
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 72px;
+        box-shadow: 0px 0px 40px -20px rgba(0,0,0,0.25);
+    }
+
+    .div__h1--titulo{
+        color: #212529;
+        font-weight: 700px;
+        font-size: 21px;
+    }
+
+    .div__span--titulo{
+        color: #FF2253;
+        font-weight: 700px;
+        font-size: 17px;
+    }
+
+    .header__div--areaDeBusca{
+        display: flex;
+        gap: 10px;
+    }
+
+    .div__form--buscarProduto{
+        background-color: #E9ECEF;
+        padding: 5px 10px;
+    }
+
+    .form__button--pesquisar{
+        border: none;
+        cursor: pointer;
+    }
+
+    .form__input--pesquisar{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #868E96;
+        background-color: #E9ECEF;
+        padding: 5px 10px;
+        border: none;
+    }
+
+    .div__button--usuario{
+        border: none;
+        padding: 0px 0px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .body__nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 30px;
+    }
+
+    .nav__ul--categorias{
+        display: flex;
+        gap: 15px;
+    }
+
+    .ul__li{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 15px 20px;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    .ul__li--selecionado{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #FF2253;
+        color: #F8F9FA;
+        padding: 15px 20px;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    .ul__li--panificadora{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #FFF7F4;
+        color: #212529;
+        padding: 15px 20px;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    .ul__li--frutas{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #FFF1F4;
+        color: #212529;
+        padding: 15px 20px;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    .ul__li--bebidas{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #F3EEF5;
+        color: #212529;
+        padding: 15px 20px;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    .nav__button--addProduto{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #F8F9FA;
+        background-color: #FF2253;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    main{
+        margin-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .main__div--legendas{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    .div__p--legenda{
+        font-weight: 400;
+        font-size: 14px;
+        color: #868E96;
+        padding: 10px 20px;
+    }
+
+    .main__section--cards{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section__div--card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #E9ECEF;
+        border-radius: 10px;
+        padding: 30px 20px;
+    }
+
+    .div__div--cardInicio {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .div__img--produto{
+        width: 32px;
+        height: 32px;
+        border-radius: 20px;
+    }
+
+    .div__h2--titulo{
+        font-weight: 500;
+        font-size: 14px;
+        color: #212529;
+    }
+
+    .div__div--categorias{
+        display: flex;
+        gap: 15px;
+        margin-right: 100px;
+    }
+
+    .div__span--categoria{
+        font-weight: 400;
+        font-size: 14px;
+        color: #868E96;
+        background-color: #F8F9FA;
+        border-radius: 8px;
+        padding: 10px 15px;
+    }
+
+    .div__p--descricao{
+        font-weight: 400;
+        font-size: 14px;
+        color: #868E96;
+    }
+
+    .div__div--botoes{
+        display: flex;
+        gap: 10px;
+    }
+
+    .div__button--botaoLista{
+        border: none;
+        background-color: #F8F9FA;
+        width: 38px;
+        height: 38px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    
+    body {
+        width: 95vw;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        margin: none;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .div__h1--titulo{
+        color: #212529;
+        font-weight: 700px;
+        font-size: 21px;
+    }
+
+
+    .div__span--titulo{
+        color: #FF2253;
+        font-weight: 700px;
+        font-size: 17px;;
+    }
+
+    .div__button--usuario{
+        position: fixed;
+        top: 10px;
+        left: 80%;
+        border: none;
+        border-radius: 40px;
+    }
+
+    .div__form--buscarProduto{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        background-color: #E9ECEF;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .form__input--pesquisar{
+        background-color: #E9ECEF;
+        border: none;
+        width: 80%;
+        padding: 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .form__button--pesquisar{
+        background-color: #E9ECEF;
+        border: none;
+    }
+
+    .body__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-right: 10px;
+    }
+
+    .nav__ul--categorias{
+        display: flex;
+        gap: 22px;
+        overflow: scroll;
+    }
+
+    .ul__li{
+        padding: 15px 20px;
+        border-radius: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .ul__li--selecionado{
+        padding: 15px 20px;
+        border-radius: 30px;
+        background-color: #FF2253;
+        color: #F8F9FA;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .ul__li--panificadora{
+        padding: 15px 20px;
+        border-radius: 30px;
+        background-color: #FFF7F4;
+        color: #212529;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .ul__li--frutas{
+        padding: 15px 20px;
+        border-radius: 30px;
+        background-color: #FFF1F4;
+        color: #212529;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .ul__li--bebidas{
+        padding: 15px 20px;
+        border-radius: 30px;
+        background-color: #F3EEF5;
+        color: #212529;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .nav__button--addProduto{
+        background-color: #FF2253;
+        padding: 15px 20px;
+        border-radius: 20px;
+        border: none;
+        color: #F8F9FA;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .main__section--cards{
+        display: flex;
+        overflow: scroll;
+        gap: 20px;
+    }
+
+    .section__div--card{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 13px;
+    }
+
+    .div__img--produto{
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .div__span--categoria{
+        font-size: 12px;
+        font-weight: 400;
+        color: #868E96;
+    }
+
+    .div__h2--titulo{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 24px;     /* fallback */
+        -webkit-line-clamp: 1; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    .div__p--descricao{
+        font-size: 14px;
+        font-weight: 400;
+        color: #868E96;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 24px;     /* fallback */
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+    }
+
+    .div__div--botoes{
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .div__button--botaoLista{
+        border: none;
+    }
+
+
+    .main__div--legendas{
+        display: none;
+    }
+
+
+    
+
+}
+
+
+
+
+.body__div--mascaraModalStatusAdicionado {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+  }
+  
+  .div__div--StatusAdicionadoModal {
+    margin-top: 7%;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .div__div--StatusAdicionadoModalCabecalho {
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+  
+  
+  }
+  
+  .div__h3--tituloModalStatusAdicionado {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    
+  }
+  .div__button--botaoModalFechar {
+    background-color: #e9ecef;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    
+  }
+  .div__div--BoxModalStatusAdicionado{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  
+  }
+  
+  .div__h3--nomeModalStatusAdicionado {
+  
+    font-size: 14px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .div__button--botaoModalStatusAdicionado {
+      border: none;
+      border-radius: 20px;
+      flex-direction: row;
+      width: 40%;
+      height: 52px;
+      font-style: 16px;
+      margin-left: 20px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      background-color: #f8f9fa;
+      color: #868e96;
+    }
+  .div__div--ModalStatusAdicionado{
+      margin-top: 20px;
+      width: 100%;
+      height: 8px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #39DF8F;
+  
+  }  
+  
+  
+
+
+.body__div--mascaraModalStatusErro {
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+  }
+  
+  .div__div--StatusErroModal {
+    margin-top: 7%;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .div__div--StatusErroModalCabecalho {
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+  
+  
+  }
+  
+  .div__h3--tituloModalStatusErro {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    
+  }
+  .div__button--botaoModalFechar {
+    background-color: #e9ecef;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    
+  }
+  .div__div--BoxModalStatusErro{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  
+  }
+  
+  .div__h3--nomeModalStatusErro {
+  
+    font-size: 14px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .div__button--botaoModalStatusErro {
+      border: none;
+      border-radius: 20px;
+      flex-direction: row;
+      width: 40%;
+      height: 52px;
+      font-style: 16px;
+      margin-left: 20px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      background-color: #f8f9fa;
+      color: #868e96;
+    }
+  .div__div--ModalStatusErro{
+      margin-top: 20px;
+      width: 100%;
+      height: 8px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #ff2253
+  
+  }  
+  
+  /* @media (max-width: 900px) {
+      .div__button--botaoModalStatusAdicionado {
+          border: none;
+          border-radius: 20px;
+          flex-direction: row;
+          width: 40%;
+          height: 52px;
+          font-style: 16px;
+          margin-left: 20px;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px;
+          background-color: #f8f9fa;
+          color: #868e96;
+        }
+  
+    .div__div--botaoModalExcluir{
+      margin-top: 20px;
+      gap: 20px;
+  
+  }  
+  } */
