@@ -3,6 +3,7 @@ import { Produtos } from "../controller/Produtos.js";
 criarCards ('Todos');
 filtroCategoria();
 abrirCadastroLogin();
+pesquisaDinamica();
 
 async function criarCards (categoria) {
 
@@ -96,5 +97,21 @@ function abrirCadastroLogin(){
         }
         
     });
-    
+}
+
+async function pesquisaDinamica(){
+    const pesquisa = document.querySelector('.form__input--pesquisar')
+
+    pesquisa.addEventListener("keyup", event => {
+        
+        const resultadoBusca = buscaAutomatica(pesquisa.value);
+        const resultadoProdutos = await Produtos.listarTodosProdutos();
+        console.log(resultadoProdutos[0])
+    });
+}
+
+function buscaAutomatica(produtos){
+    const produtosFiltrados = produtos.toLowerCase();
+
+    return produtosFiltrados;
 }
