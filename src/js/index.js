@@ -13,7 +13,7 @@ async function criarCards (categoria) {
 
     produtos.forEach((elem) => {
 
-        if (categoria == elem.categoria){
+        if (categoria == elem.categoria) {
 
             const cardProduto = document.createElement('article');
             cardProduto.setAttribute('class', 'section__article--card');
@@ -34,8 +34,11 @@ async function criarCards (categoria) {
                 </button>
             </div>
             `;
-        divCard.appendChild(cardProduto);
-        }else if (categoria == 'Todos'){
+            
+            divCard.appendChild(cardProduto);
+            
+        } else if (categoria == 'Todos') {
+            
             const cardProduto = document.createElement('article');
             cardProduto.setAttribute('class', 'section__article--card');
             cardProduto.setAttribute('id', elem.id);
@@ -55,9 +58,11 @@ async function criarCards (categoria) {
                 </button>
             </div>
             `;
+            
             divCard.appendChild(cardProduto);
 
         }
+        
     });
     
 }
@@ -68,7 +73,7 @@ function filtroCategoria() {
     
     categorias.addEventListener('click', event => {
         criarCards (event.target.id);
-    })
+    });
 
 }
 
@@ -78,13 +83,18 @@ function abrirCadastroLogin(){
 
     botoes.addEventListener('click', event => {
 
-        console.log(event.target.className)
-
-        if (event.target.className == 'div__p--cadastro'){
-            location.replace('/src/pages/cadastro.html')
-        };
-        if (event.target.className == 'div__p--login'){
-            location.replace('/src/pages/login.html')
-        };
-    })
+        if (event.target.className == 'div__p--cadastro') {
+            
+            location.replace('/src/pages/cadastro.html');
+            
+        }
+        
+        if (event.target.className == 'div__p--login') {
+            
+            location.replace('/src/pages/login.html');
+            
+        }
+        
+    });
+    
 }
