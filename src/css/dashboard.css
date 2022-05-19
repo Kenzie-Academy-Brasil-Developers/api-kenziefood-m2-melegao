@@ -225,6 +225,466 @@
         border-radius: 20px;
         cursor: pointer;
     }
+
+    /* MODAL CADASTRAR PRODUTO */
+
+    .body__div--mascaraModalCadastro{
+        display: none;
+    }
+
+    /* PARA ATIVAR O MODAL, MUDAR PARA A CLASSE ABAIXO */
+
+    .body__div--mascaraModalCadastroAtivado {
+        
+        display: flex;  /* ALTERAR DE NONE PARA FLEX NO JAVASCRIPT */
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .div__div--cadastroModalProduto {
+        margin-top: 7%;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width: 500px;
+        height: 685px;
+        border-radius: 5px;
+      }
+      
+      .div__div--cadastroModalCabecalho {
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+      }
+      
+      .div__h3--tituloModalCadastro {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+      }
+      
+      .div__button--botaoModalFechar {
+        background-color: #e9ecef;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+      }
+      
+      .div__form--formularioModalCadastro {
+        padding-top: 15px;
+      }
+      
+      .form__div--nomeModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div_label--nomeModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--digitarModalNome {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--descricaoModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--descricaoModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div_input--descricaoModalCadastro {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 80px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__h3--categoriasModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .form__div--catedoriasModalCadastro {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .form__div--valorModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--valorModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--valorModalCadastro {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--imagemModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--imagemModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--imagemModalCadastro {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .div__button--botaoModalCadastro {
+        border: none;
+        border-radius: 20px;
+        width: 91%;
+        height: 52px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: #ff2253;
+        color: #FFFFFF;
+      }
+      
+      .div__label--catedoriasModalCadastro {
+        font-size: 14px;
+        color: #868e96;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .div__input--catedoriasModalCadastro {
+        text-size-adjust: 14px;
+        visibility: hidden;
+        width: 0;
+        margin: 0;
+      }
+      
+      .div__input-box--catedoriasModalCadastro {
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        border: 1.5px solid #dee2e6;
+        width: 136px;
+        height: 40px;
+        border: 1.5px solid #dee2e6;
+      }
+
+      .body__div--mascaraModalEditar {
+          display: none;
+      }
+
+      /* PARA CHAMAR O MODAL EDITAR, ALTERE PARA A CLASSE ABAIXO */
+
+      .body__div--mascaraModalEditarAtivado {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .div__div--EditarModalProduto {
+        margin-top: 7%;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width: 500px;
+        height: 685px;
+        border-radius: 5px;
+      }
+      
+      .div__div--EditarModalCabecalho {
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+      }
+      
+      .div__h3--tituloModalEditar {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+      }
+      
+      .div__button--botaoModalFechar {
+        background-color: #e9ecef;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+      }
+      
+      .div__form--formularioModalEditar {
+        padding-top: 15px;
+      }
+      
+      .form__div--nomeModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div_label--digitarModalNome {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--digitarModalNome {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--descricaoModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--descricaoModalEditar {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div_input--descricaoModalEditar {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 80px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__h3--categoriasModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .form__div--catedoriasModalEditar {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .form__div--valorModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--valorModalEditar {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--valorModalEditar {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--imagemModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--imagemModalEditar {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--imagemModalEditar {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .div__button--botaoModalEditar {
+        border: none;
+        border-radius: 20px;
+        width: 55%;
+        height: 52px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: #ff2253;
+        color: #FFFFFF;
+      }
+      
+      .div__button--botaoModalExcluir {
+          border: none;
+          border-radius: 20px;
+          width: 30%;
+          height: 52px;
+          margin-left: 20px;
+          margin-top: 20px;
+          background-color: #f8f9fa;
+          color: #868e96;
+      }
+      
+      .div__label--catedoriasModalEditar {
+        font-size: 14px;
+        color: #868e96;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .div__input--catedoriasModalEditar {
+        text-size-adjust: 14px;
+        visibility: hidden;
+        width: 0;
+        margin: 0;
+      }
+      
+      .div__input-box--catedoriasModalEditar {
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        width: 136px;
+        height: 40px;
+        border: 1.5px solid #dee2e6;
+      }
+
+      .body__div--mascaraModalApagarExcluir{
+          display: none;
+      }
+
+      /* PARA CHAMAR O MODAL EXCLUIR, ALTERE PARA A CLASSE ABAIXO */
+
+      .body__div--mascaraModalApagarExcluirAtivado {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .div__div--ExcluirModalApagarProduto {
+        margin-top: 7%;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width: 500px;
+        height: 270px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .div__div--ExcluirModalApagarCabecalho {
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+      }
+      
+      .div__h3--tituloModalApagarExcluir {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+      }
+      
+      .div__button--botaoModalApagarFechar {
+        background-color: #e9ecef;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+      }
+      
+      .div__div--BoxModalApagarExcluir{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .div__h3--nomeModalApagarExcluir {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        padding-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .div__button--botaoModalApagarExcluir {
+        border: none;
+        border-radius: 20px;
+        flex-direction: row;
+        width: 40%;
+        height: 52px;
+        font-style: 16px;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+        color: #868e96;
+      }
+      
+      .div__div--botaoModalApagarExcluir{
+        margin-top: 20px;
+        gap: 20px;
+        width: 80%;
+      }
   
 }
 
@@ -426,6 +886,464 @@
     .main__div--legendas {
         display: none;
     }
+
+    /* MODAL CADASTRAR PRODUTO */
+
+    .body__div--mascaraModalCadastro{
+        display: none;
+    }
+
+    /* PARA ATIVAR O MODAL, MUDAR PARA A CLASSE ABAIXO */
+
+    .body__div--mascaraModalCadastroAtivado {
+        display: flex; 
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .div__div--cadastroModalProduto {
+        margin-top: 7%;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width: 500px;
+        height: 685px;
+        border-radius: 5px;
+      }
+      
+      .div__div--cadastroModalCabecalho {
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+      }
+      
+      .div__h3--tituloModalCadastro {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+      }
+      
+      .div__button--botaoModalFechar {
+        background-color: #e9ecef;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+      }
+      
+      .div__form--formularioModalCadastro {
+        padding-top: 15px;
+      }
+      
+      .form__div--nomeModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div_label--nomeModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--digitarModalNome {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--descricaoModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--descricaoModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div_input--descricaoModalCadastro {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 80px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__h3--categoriasModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .form__div--catedoriasModalCadastro {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .form__div--valorModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--valorModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--valorModalCadastro {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--imagemModalCadastro {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--imagemModalCadastro {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--imagemModalCadastro {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .div__button--botaoModalCadastro {
+        border: none;
+        border-radius: 20px;
+        width: 91%;
+        height: 52px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: #ff2253;
+        color: #FFFFFF;
+      }
+      
+      .div__label--catedoriasModalCadastro {
+        font-size: 14px;
+        color: #868e96;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .div__input--catedoriasModalCadastro {
+        text-size-adjust: 14px;
+        visibility: hidden;
+        width: 0;
+        margin: 0;
+      }
+
+    .div__input-box--catedoriasModalCadastro {
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        border: 1.5px solid #dee2e6;
+        width: 90px;
+        height: 40px;
+      }
+
+      .body__div--mascaraModalEditar{
+          display: none;
+      }
+
+      /* PARA CHAMAR O MODAL EDITAR, ALTERE PARA A CLASSE ABAIXO */
+    
+      .body__div--mascaraModalEditarAtivado {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .div__div--EditarModalProduto {
+        margin-top: 7%;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width: 500px;
+        height: 685px;
+        border-radius: 5px;
+      }
+      
+      .div__div--EditarModalCabecalho {
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+      }
+      
+      .div__h3--tituloModalEditar {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+      }
+      
+      .div__button--botaoModalFechar {
+        background-color: #e9ecef;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+      }
+      
+      .div__form--formularioModalEditar {
+        padding-top: 15px;
+      }
+      
+      .form__div--nomeModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div_label--digitarModalNome {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--digitarModalNome {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--descricaoModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--descricaoModalEditar {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div_input--descricaoModalEditar {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 80px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__h3--categoriasModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .form__div--catedoriasModalEditar {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .form__div--valorModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--valorModalEditar {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--valorModalEditar {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .form__div--imagemModalEditar {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      
+      .div__label--imagemModalEditar {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      
+      .div__input--imagemModalEditar {
+        border: 5px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        width: 95%;
+        height: 52px;
+        border: 1.5px solid #dee2e6;
+      }
+      
+      .div__button--botaoModalEditar {
+        border: none;
+        border-radius: 20px;
+        width: 55%;
+        height: 52px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: #ff2253;
+        color: #FFFFFF;
+      }
+      
+      .div__button--botaoModalExcluir {
+          border: none;
+          border-radius: 20px;
+          width: 30%;
+          height: 52px;
+          margin-left: 20px;
+          margin-top: 20px;
+          background-color: #f8f9fa;
+          color: #868e96;
+      }
+      
+      .div__label--catedoriasModalEditar {
+        font-size: 14px;
+        color: #868e96;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .div__input--catedoriasModalEditar {
+        text-size-adjust: 14px;
+        visibility: hidden;
+        width: 0;
+        margin: 0;
+      }
+
+      .div__input-box--catedoriasModalEditar {
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        border: 1.5px solid #dee2e6;
+        width: 90px;
+        height: 40px;
+      }
+
+      .body__div--mascaraModalApagarExcluir{
+          display: none;
+      }
+
+       /* PARA CHAMAR O MODAL EXCLUIR, ALTERE PARA A CLASSE ABAIXO */
+
+      .body__div--mascaraModalApagarExcluirAtivado {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .div__div--ExcluirModalApagarProduto {
+        margin-top: 7%;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width: 500px;
+        height: 270px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .div__div--ExcluirModalApagarCabecalho {
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+      }
+      
+      .div__h3--tituloModalApagarExcluir {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+      }
+      
+      .div__button--botaoModalApagarFechar {
+        background-color: #e9ecef;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+      }
+      
+      .div__div--BoxModalApagarExcluir{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .div__h3--nomeModalApagarExcluir {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        padding-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .div__button--botaoModalApagarExcluir {
+        border: none;
+        border-radius: 20px;
+        flex-direction: row;
+        width: 120px;
+        height: 52px;
+        font-style: 16px;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+        color: #868e96;
+      }
+    
+      .div__div--botaoModalApagarExcluir{
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+      } 
     
 }
 
@@ -437,8 +1355,17 @@
     top: 0;
     left: 0;
 }
+
+.div__div--StatusAdicionadoModal{
+    display: none;
+}
+
+/* PARA CHAMAR O MODAL STATUS ADICIONADO, ALTERE PARA A CLASSE ABAIXO */
   
-.div__div--StatusAdicionadoModal {
+.div__div--StatusAdicionadoModalAtivada {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
     margin-top: 7%;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -518,8 +1445,17 @@
     top: 0;
     left: 0;
 }
-  
-.div__div--StatusErroModal {
+
+.div__div--StatusErroModal{
+    display: none;
+}
+
+/* PARA CHAMAR O MODAL STATUS ERRO, ALTERE PARA A CLASSE ABAIXO */
+
+.div__div--StatusErroModalAtivado {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
     margin-top: 7%;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -590,62 +1526,43 @@
     border-bottom-right-radius: 10px;
     background-color: #ff2253
 }  
-  
-/* @media (max-width: 900px) {
-    .div__button--botaoModalStatusAdicionado {
-        border: none;
-        border-radius: 20px;
-        flex-direction: row;
-        width: 40%;
-        height: 52px;
-        font-style: 16px;
-        margin-left: 20px;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-        background-color: #f8f9fa;
-        color: #868e96;
-    }
 
-    .div__div--botaoModalExcluir{
-      margin-top: 20px;
-      gap: 20px;
-    }
-
-} */
-
-    .div__button--botaoLista{
-        border: none;
-    }
+.div__button--botaoLista{
+    border: none;
+}
 
 
-    .main__div--legendas{
-        display: none;
-    }
+.main__div--legendas{
+    display: none;
+}
 
 .body__div--modalLogout {
-
     position: absolute;
-    right: 0;
+    right: 1%;
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
     background-color: rgba(0, 0, 0, 0);
-    top: 10%;
+    top: 8%;
     left: 10;
-
   }
   
-  .div__div--logoutModal {
-    margin-top: 7%;
-    flex-direction: row;
-    background-color: #FFFFFF;
-    width: 200px;
-    height: 130px;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-  }
+.div__div--logoutModal{
+    display: none;
+}
+
+/* PARA CHAMAR O MODAL LOGOUT, ALTERE PARA A CLASSE ABAIXO */
+
+.div__div--logoutModalAtivado {
+margin-top: 7%;
+flex-direction: row;
+background-color: #FFFFFF;
+width: 200px;
+height: 130px;
+border-radius: 5px;
+align-items: center;
+justify-content: center;
+}
 
   .div__div--logoutModalCabecalho {
     border-radius: 5px;
@@ -682,3 +1599,4 @@
       background-color: #f8f9fa;
       color: #868e96;
   }
+
