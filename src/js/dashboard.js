@@ -38,7 +38,7 @@ async function criarCards(input) {
                     </button>
                 </div>
                 `;
-                divCard.appendChild(cardProduto)
+                divCard.appendChild(cardProduto);
             
         } else if (elem.nome.toLowerCase().includes(input) || elem.categoria.toLowerCase().includes(input)) {
 
