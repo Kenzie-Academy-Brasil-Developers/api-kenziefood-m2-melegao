@@ -235,7 +235,6 @@
     /* PARA ATIVAR O MODAL, MUDAR PARA A CLASSE ABAIXO */
 
     .body__div--mascaraModalCadastroAtivado {
-        
         display: flex;  /* ALTERAR DE NONE PARA FLEX NO JAVASCRIPT */
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.5);
@@ -599,7 +598,7 @@
         border: 1.5px solid #dee2e6;
       }
 
-      .body__div--mascaraModalApagarExcluir{
+      .body__div--mascaraModalApagarExcluir {
           display: none;
       }
 
@@ -1356,7 +1355,7 @@
     left: 0;
 }
 
-.div__div--StatusAdicionadoModal{
+.div__div--StatusAdicionadoModal {
     display: none;
 }
 
@@ -1531,7 +1530,6 @@
     border: none;
 }
 
-
 .main__div--legendas{
     display: none;
 }
@@ -1545,7 +1543,7 @@
     background-color: rgba(0, 0, 0, 0);
     top: 8%;
     left: 10;
-  }
+}
   
 .div__div--logoutModal{
     display: none;
@@ -1554,49 +1552,48 @@
 /* PARA CHAMAR O MODAL LOGOUT, ALTERE PARA A CLASSE ABAIXO */
 
 .div__div--logoutModalAtivado {
-margin-top: 7%;
-flex-direction: row;
-background-color: #FFFFFF;
-width: 200px;
-height: 130px;
-border-radius: 5px;
-align-items: center;
-justify-content: center;
+    margin-top: 7%;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 130px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
-  .div__div--logoutModalCabecalho {
+.div__div--logoutModalCabecalho {
     border-radius: 5px;
     background-color: #f8f9fa;
     display: flex;
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-  }
-  
-  .div__h3--modalLogout {
+}
+
+.div__h3--modalLogout {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
-  }
+}
 
-  .div__div--buttonModalLogout{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
+.div__div--buttonModalLogout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-  .div__button--ModalLogout {
-      border: none;
-      border-radius: 20px;
-      flex-direction: row;
-      width: 40%;
-      height: 52px;
-      font-style: 16px;
-      margin-left: 20px;
-      align-items: center;
-      justify-content: center;
-      margin-top: 20px;
-      background-color: #f8f9fa;
-      color: #868e96;
-  }
-
+.div__button--ModalLogout {
+    border: none;
+    border-radius: 20px;
+    flex-direction: row;
+    width: 40%;
+    height: 52px;
+    font-style: 16px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    color: #868e96;
+}
