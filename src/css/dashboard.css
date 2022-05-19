@@ -394,9 +394,10 @@
       
       .div__input--catedoriasModalCadastro {
         text-size-adjust: 14px;
-        visibility: hidden;
-        width: 0;
+        /* visibility: hidden; */
+        width: 100%;
         margin: 0;
+       
       }
       
       .div__input-box--catedoriasModalCadastro {
@@ -1054,8 +1055,8 @@
       
       .div__input--catedoriasModalCadastro {
         text-size-adjust: 14px;
-        visibility: hidden;
-        width: 0;
+        /* visibility: hidden; */
+        width: 100%;
         margin: 0;
       }
 

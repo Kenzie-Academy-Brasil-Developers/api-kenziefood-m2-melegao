@@ -44,7 +44,7 @@
         <li class="ul__li ul__li--frutas">Frutas</li>
         <li class="ul__li ul__li--bebidas">Bebidas</li>
       </ul>
-      <button class="nav__button--addProduto">Adicionar novo produto</button>
+      <button id="button--addProduto"class="nav__button--addProduto">Adicionar novo produto</button>
     </nav>
 
     <main>
@@ -60,7 +60,7 @@
     </main>
     
     <div class="body__div--mascaraModalStatusAdicionado">
-      <div class="div__div--StatusAdicionadoModal">
+      <div id="StatusAdicionadoModal" class="div__div--StatusAdicionadoModal">
         <div class="div__div--StatusAdicionadoModalCabecalho">
           <h3 class="div__h3--tituloModalStatusAdicionado">Status</h3>
           <button class="div__button--botaoModalFechar">X</button>
@@ -76,7 +76,7 @@
     </div>
     
     <div class="body__div--mascaraModalStatusErro">
-        <div class="div__div--StatusErroModal">
+        <div id="StatusErroModal" class="div__div--StatusErroModal">
           <div class="div__div--StatusErroModalCabecalho">
             <h3 class="div__h3--tituloModalStatusErro">Status</h3>
             <button class="div__button--botaoModalFechar">X</button>
@@ -93,13 +93,13 @@
 
     <!-- MODAL ADD PRODUTO -->
 
-    <div class="body__div--mascaraModalCadastro">
+    <div id="mascaraModalCadastro" class="body__div--mascaraModalCadastro">
     
       <div class="div__div--cadastroModalProduto">
         
         <div class="div__div--cadastroModalCabecalho">
             <h3 class="div__h3--tituloModalCadastro">Cadastro de produto</h3>
-            <button class="div__button--botaoModalFechar">X</button>
+            <button id="botaoModalFechar" class="div__button--botaoModalFechar">X</button>
         </div>
         
         <form class="div__form--formularioModalCadastro">
@@ -134,7 +134,7 @@
               <label for="div__label--imagemModalCadastro">Link da imagem</label>
               <input class="div__input--imagemModalCadastro" placeholder="Inserir link" id="div__label--imagemModalCadastro"/>  
           </div>
-          <button class="div__button--botaoModalCadastro">Cadastrar Produto</button>
+          <button id="botaoModalCadastro" class="div__button--botaoModalCadastro">Cadastrar Produto</button>
         </form>
     
       </div>
@@ -166,16 +166,17 @@
 
            <div class="form__div--catedoriasModalEditar">
                <div class="div__input-box--catedoriasModalEditar">
-                   <label class="div__label--catedoriasModalEditar" for="div_label--panificadoraModalEditar">Panificadora</label>
-                   <input class="div__input--catedoriasModalEditar div__input--panificadoraModalEditar" type="checkbox" name="Panificadora" id="div_label--panificadoraModalEditar"/>  
+                   <label class="div__label--catedoriasModalEditar"  for="div_label--panificadoraModalEditar">Panificadora</label>
+                   <input type="checkbox">
+                   <input data-status="false" class="div__input--catedoriasModalEditar div__input--panificadoraModalEditar" type="checkbox" name="Panificadora" id="div_label--panificadoraModalEditar"/>  
                </div>
                <div class="div__input-box--catedoriasModalEditar">
-                   <label class="div__label--catedoriasModalEditar" for="div__label--frutasModalEditar">Frutas</label>
-                   <input class="div__input--catedoriasModalEditar div__input--frutasModalEditar" type="checkbox" name="Frutas" id="div__label--frutasModalEditar"/> 
+                   <label class="div__label--catedoriasModalEditar"  for="div__label--frutasModalEditar">Frutas</label>
+                   <input data-status="false" class="div__input--catedoriasModalEditar div__input--frutasModalEditar" type="checkbox" name="Frutas" id="div__label--frutasModalEditar"/> 
                </div>
                <div class="div__input-box--catedoriasModalEditar">
-                   <label class="div__label--catedoriasModalEditar" for="div__label--bebidasModalEditar">Bebidas</label> 
-                   <input class="div__input--catedoriasModalEditar div__input--bebidasModalEditar" type="checkbox" name="Bebidas" id="div__label--bebidasModalEditar"/>  
+                   <label class="div__label--catedoriasModalEditar" data-status="false"  for="div__label--bebidasModalEditar">Bebidas</label> 
+                   <input data-status="false" class="div__input--catedoriasModalEditar div__input--bebidasModalEditar" type="checkbox" name="Bebidas" id="div__label--bebidasModalEditar"/>  
                </div>
            </div>
 

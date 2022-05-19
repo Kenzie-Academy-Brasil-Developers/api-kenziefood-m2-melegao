@@ -45,9 +45,9 @@ class Produtos {
             },
             body: JSON.stringify(dadosDoProduto)
         });
-
-        const dadosRetornados = await resposta.json();
-
+        const dadosRetornados = resposta.status
+        // const dadosRetornados = await resposta.json();
+        console.log(dadosRetornados)
         return dadosRetornados;
 
     }
