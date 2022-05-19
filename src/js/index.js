@@ -1,11 +1,11 @@
 import { Produtos } from "../controller/Produtos.js";
 
-criarCards ();
+criarCards();
 filtroCategoria();
 abrirCadastroLogin();
 pesquisaDinamica();
 
-async function criarCards (input) {
+async function criarCards(input) {
 
     const produtos = await Produtos.listarTodosProdutos();
 
@@ -77,6 +77,7 @@ function filtroCategoria() {
         const input = event.target.id.toLowerCase();
 
         criarCards (input);
+        
     });
 
 }
@@ -112,5 +113,7 @@ function pesquisaDinamica() {
         const busca = input.value.toLowerCase();
         
         criarCards (busca);
-    })
+        
+    });
+    
 }
