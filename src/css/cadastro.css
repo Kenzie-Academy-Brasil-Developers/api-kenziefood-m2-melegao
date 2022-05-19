@@ -46,3 +46,11 @@ body {
   border-radius: 5px;
   padding: 10px;
 }
+
+.form__input--buttonVoltar{
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  color: #ff2253;
+  text-decoration: underline;
+}

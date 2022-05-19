@@ -47,3 +47,11 @@ body {
   padding: 10px;
   cursor: pointer;
 }
+
+.form__input--buttonVoltar{
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  color: #ff2253;
+  text-decoration: underline;
+}
