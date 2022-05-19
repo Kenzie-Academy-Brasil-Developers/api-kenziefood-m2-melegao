@@ -10,7 +10,7 @@ async function criarCards() {
     divCard.innerHTML = ``;
 
     produtos.forEach((elem) => {
-        
+      
         const cardProduto = document.createElement('article');
         cardProduto.setAttribute('class', 'section__article--card');
         cardProduto.setAttribute('id', elem.id);
