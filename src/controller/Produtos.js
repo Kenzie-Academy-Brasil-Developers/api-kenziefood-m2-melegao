@@ -54,7 +54,7 @@ class Produtos {
 
     static async editarProduto(dadosDoProduto, idDoProduto) {
 
-        const URL = `${this.BASE_URL}/my/products/:${idDoProduto}`;
+        const URL = `${this.BASE_URL}/my/products/${idDoProduto}`;
 
         const resposta = await fetch(URL, {
             method: "PATCH",
@@ -73,7 +73,7 @@ class Produtos {
 
     static async deletarProduto(idDoProduto) {
 
-        const URL = `${this.BASE_URL}/my/products/:${idDoProduto}`;
+        const URL = `${this.BASE_URL}/my/products/${idDoProduto}`;
 
         const resposta = await fetch(URL, {
             method: "DELETE",
