@@ -26,7 +26,7 @@
                 <div class="body__div--modalLogout">
                     <div class="div__div--logoutModal">
                       <div class="div__div--logoutModalCabecalho">
-                        <h3 class="div__h3--modalLogout">Avatar</h3>
+                        <h3 class="div__h3--modalLogout">Usuário</h3>
                       </div>
                       <div class="div__div--buttonModalLogout">
                         <button class="div__button--ModalLogout">Logout</button>
@@ -166,6 +166,133 @@
           </div>
           <p class="div__div--ModalStatusErro"></p>
         </div> 
+    </div>
+
+    <!-- MODAL ADD PRODUTO -->
+
+    <div class="body__div--mascaraModalCadastro">
+    
+      <div class="div__div--cadastroModalProduto">
+        
+        <div class="div__div--cadastroModalCabecalho">
+            <h3 class="div__h3--tituloModalCadastro">Cadastro de produto</h3>
+            <button class="div__button--botaoModalFechar">X</button>
+        </div>
+        
+        <form class="div__form--formularioModalCadastro">
+          <div class="form__div--nomeModalCadastro">
+              <label class="div_label--nomeModalCadastro" for="div_label--digitarModalNome">Nome do Produto</label>
+              <input type="text" class="div__input--digitarModalNome" id="div_label--digitarModalNome" placeholder="Digitar o nome"/>
+          </div>
+          <div class="form__div--descricaoModalCadastro">
+              <label class="div__label--descricaoModalCadastro" for="div__label--descricaoModalCadastro">Descrição</label>
+              <input class="div_input--descricaoModalCadastro" id="div__label--descricaoModalCadastro" placeholder="Digitar a descrição"/>
+          </div>
+          <h3 class="form__h3--categoriasModalCadastro">Categorias</h3>
+          <div class="form__div--catedoriasModalCadastro">
+              <div class="div__input-box--catedoriasModalCadastro">
+                  <label  class="div__label--catedoriasModalCadastro" for="div_label--panificadoraModalCadastro">Panificadora</label>
+                  <input  class="div__input--catedoriasModalCadastro div__input--panificadoraModalCadastro" type="checkbox" name="Panificadora" id="div_label--panificadoraModalCadastro"/>  
+              </div>
+              <div class="div__input-box--catedoriasModalCadastro">
+                  <label class="div__label--catedoriasModalCadastro" for="div__label--frutasModalCadastro">Frutas</label>
+                  <input class="div__input--catedoriasModalCadastro div__input--frutasModalCadastro" type="checkbox" name="Frutas" id="div__label--frutasModalCadastro"/> 
+              </div>
+              <div class="div__input-box--catedoriasModalCadastro">
+                  <label class="div__label--catedoriasModalCadastro" for="div__label--bebidasModalCadastro">Bebidas</label> 
+                  <input class="div__input--catedoriasModalCadastro div__input--bebidasModalCadastro" type="checkbox" name="Bebidas" id="div__label--bebidasModalCadastro"/>  
+              </div>
+          </div>
+          <div class="form__div--valorModalCadastro">
+              <label for="div__label--valorModalCadastro">Valor do produto</label>
+              <input class="div__input--valorModalCadastro" placeholder="Digitar o valor aqui" id="div__label--valorModalCadastro"/>
+          </div>
+          <div class="form__div--imagemModalCadastro">
+              <label for="div__label--imagemModalCadastro">Link da imagem</label>
+              <input class="div__input--imagemModalCadastro" placeholder="Inserir link" id="div__label--imagemModalCadastro"/>  
+          </div>
+          <button class="div__button--botaoModalCadastro">Cadastrar Produto</button>
+        </form>
+    
+      </div>
+    
+    </div>
+
+    <!-- MODAL EDITAR PRODUTO -->
+
+    <div class="body__div--mascaraModalEditar">
+      
+      <div class="div__div--EditarModalProduto">
+        <div class="div__div--EditarModalCabecalho">
+            <h3 class="div__h3--tituloModalEditar">Edição de produto</h3>
+            <button class="div__button--botaoModalFechar">X</button>
+        </div>
+
+        <form class="div__form--formularioModalEditar">
+           <div class="form__div--nomeModalEditar">
+               <label class="div_label--digitarModalNome" for="div_label--digitarModalNome">Nome do Produto</label>
+               <input class="div__input--digitarModalNome" id="div_label--digitarModalNome" placeholder="Digitar o nome"/>
+           </div>
+
+           <div class="form__div--descricaoModalEditar">
+               <label class="div__label--descricaoModalEditar" for="div__label--descricaoModalEditar">Descrição</label>
+               <input class="div_input--descricaoModalEditar" id="div__label--descricaoModalEditar" placeholder="Digitar a descrição"/>
+           </div>
+
+           <h3 class="form__h3--categoriasModalEditar">Categorias</h3>
+
+           <div class="form__div--catedoriasModalEditar">
+               <div class="div__input-box--catedoriasModalEditar">
+                   <label class="div__label--catedoriasModalEditar" for="div_label--panificadoraModalEditar">Panificadora</label>
+                   <input class="div__input--catedoriasModalEditar div__input--panificadoraModalEditar" type="checkbox" name="Panificadora" id="div_label--panificadoraModalEditar"/>  
+               </div>
+               <div class="div__input-box--catedoriasModalEditar">
+                   <label class="div__label--catedoriasModalEditar" for="div__label--frutasModalEditar">Frutas</label>
+                   <input class="div__input--catedoriasModalEditar div__input--frutasModalEditar" type="checkbox" name="Frutas" id="div__label--frutasModalEditar"/> 
+               </div>
+               <div class="div__input-box--catedoriasModalEditar">
+                   <label class="div__label--catedoriasModalEditar" for="div__label--bebidasModalEditar">Bebidas</label> 
+                   <input class="div__input--catedoriasModalEditar div__input--bebidasModalEditar" type="checkbox" name="Bebidas" id="div__label--bebidasModalEditar"/>  
+               </div>
+           </div>
+
+           <div class="form__div--valorModalEditar">
+               <h3 class="div__h3--valorModalEditar"></h3>
+               <label class="div__label--valorModalEditar" for="div__label--valorModalEditar">Valor do produto</label>
+               <input class="div__input--valorModalEditar" placeholder="Digitar o valor aqui" id="div__label--valorModalEditar"/>
+           </div>
+
+           <div class="form__div--imagemModalEditar">
+               <label class="div__label--imagemModalEditar" for="div__label--imagemModalEditar">Link da imagem</label>
+               <input class="div__input--imagemModalEditar" placeholder="Inserir link" id="div__label--imagemModalEditar"/>    
+           </div>
+
+           <button class="div__button--botaoModalExcluir">Excluir</button>
+           <button class="div__button--botaoModalEditar">Salvar alteração</button>
+
+        </form>
+      </div>
+
+    </div>
+
+    <!-- MODAL EXCLUIR PRODUTO -->
+
+    <div class="body__div--mascaraModalApagarExcluir">
+      
+      <div class="div__div--ExcluirModalApagarProduto">
+        <div class="div__div--ExcluirModalApagarCabecalho">
+            <h3 class="div__h3--tituloModalApagarExcluir">Exclusão de produto</h3>
+            <button class="div__button--botaoModalApagarFechar">X</button>
+        </div>
+        <div class="div__div--BoxModalApagarExcluir">
+            <h3 class="div__h3--nomeModalApagarExcluir">Tem certeza que deseja excluir este produto?</h3>
+            <div class="div__div--botaoModalApagarExcluir">
+              <button class="div__button--botaoModalApagarExcluir">Sim</button>
+              <button class="div__button--botaoModalApagarExcluir">Não</button>
+            </div>
+        </div>
+      </div>
+      
     </div>
     
   </body>
