@@ -2,6 +2,7 @@ import {Produtos} from '../controller/Produtos.js';
 
 criarCards();
 pesquisaDinamica();
+
 filtroCategoria();
 
 async function criarCards(input) {
