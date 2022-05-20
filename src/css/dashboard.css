@@ -274,6 +274,7 @@
         width: 30px;
         height: 30px;
         border-radius: 4px;
+        cursor: pointer;
       }
       
       .div__form--formularioModalCadastro {
@@ -380,6 +381,7 @@
         margin-top: 20px;
         background-color: #ff2253;
         color: #FFFFFF;
+        cursor: pointer;
       }
       
       .div__label--catedoriasModalCadastro {
@@ -455,6 +457,7 @@
         width: 30px;
         height: 30px;
         border-radius: 4px;
+        cursor: pointer;
       }
       
       .div__form--formularioModalEditar {
@@ -561,6 +564,7 @@
         margin-top: 20px;
         background-color: #ff2253;
         color: #FFFFFF;
+        cursor: pointer;
       }
       
       .div__button--botaoModalExcluir {
@@ -572,6 +576,7 @@
           margin-top: 20px;
           background-color: #f8f9fa;
           color: #868e96;
+          cursor: pointer;
       }
       
       .div__label--catedoriasModalEditar {
@@ -586,8 +591,8 @@
       
       .div__input--catedoriasModalEditar {
         text-size-adjust: 14px;
-        visibility: hidden;
-        width: 0;
+        /* visibility: hidden; */
+        width: 100%;
         margin: 0;
       }
       
@@ -647,6 +652,7 @@
         width: 30px;
         height: 30px;
         border-radius: 4px;
+        cursor: pointer;
       }
       
       .div__div--BoxModalApagarExcluir{
@@ -678,6 +684,7 @@
         margin-top: 20px;
         background-color: #f8f9fa;
         color: #868e96;
+        cursor: pointer;
       }
       
       .div__div--botaoModalApagarExcluir{
@@ -935,6 +942,7 @@
         width: 30px;
         height: 30px;
         border-radius: 4px;
+        cursor: pointer;
       }
       
       .div__form--formularioModalCadastro {
@@ -1041,6 +1049,7 @@
         margin-top: 20px;
         background-color: #ff2253;
         color: #FFFFFF;
+        cursor: pointer;
       }
       
       .div__label--catedoriasModalCadastro {
@@ -1114,6 +1123,7 @@
         width: 30px;
         height: 30px;
         border-radius: 4px;
+        cursor: pointer;
       }
       
       .div__form--formularioModalEditar {
@@ -1220,6 +1230,7 @@
         margin-top: 20px;
         background-color: #ff2253;
         color: #FFFFFF;
+        cursor: pointer;
       }
       
       .div__button--botaoModalExcluir {
@@ -1231,6 +1242,7 @@
           margin-top: 20px;
           background-color: #f8f9fa;
           color: #868e96;
+          cursor: pointer;
       }
       
       .div__label--catedoriasModalEditar {
@@ -1245,8 +1257,8 @@
       
       .div__input--catedoriasModalEditar {
         text-size-adjust: 14px;
-        visibility: hidden;
-        width: 0;
+        /* visibility: hidden; */
+        width: 100%;
         margin: 0;
       }
 
@@ -1306,6 +1318,7 @@
         width: 30px;
         height: 30px;
         border-radius: 4px;
+        cursor: pointer;
       }
       
       .div__div--BoxModalApagarExcluir{
@@ -1337,6 +1350,7 @@
         margin-top: 20px;
         background-color: #f8f9fa;
         color: #868e96;
+        cursor: pointer;
       }
     
       .div__div--botaoModalApagarExcluir{
@@ -1396,6 +1410,7 @@
     width: 30px;
     height: 30px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .div__div--BoxModalStatusAdicionado {
@@ -1486,6 +1501,7 @@
     width: 30px;
     height: 30px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .div__div--BoxModalStatusErro{
@@ -1597,4 +1613,9 @@
     margin-top: 20px;
     background-color: #f8f9fa;
     color: #868e96;
+    cursor: pointer;
+}
+
+#cancelarLogout{
+  cursor: pointer;
 }
