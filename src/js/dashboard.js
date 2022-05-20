@@ -401,7 +401,6 @@ function logoutUsuario() {
     cancelarLogout.addEventListener('click', abortarLogout)
 
     const logoutFuncao = document.getElementById('logoutFuncao')
-    console.log('iiii')
     logoutFuncao.setAttribute('class','div__div--logoutModalAtivado')
 
     const fazerLogout = document.getElementById('fazerLogout')
@@ -418,4 +417,14 @@ function finalizarLogout(){
 
 function abortarLogout(){
     location.reload()
-  }
+}
+
+function redirecionarHome() {
+
+    const linkH1 = document.querySelector('#div__h1--titulo');
+
+    linkH1.addEventListener('click', () => window.location.assign("/index.html"));
+
+}
+
+redirecionarHome();

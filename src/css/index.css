@@ -566,6 +566,9 @@
     
     .div__div--modalCarrinho{
         display: none;
+    }
+
+    .div__div--modalCarrinhoAtivado{
         position: absolute;
         top: 50px;
         left: 20px;
