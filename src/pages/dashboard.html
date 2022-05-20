@@ -18,18 +18,19 @@
         </div>
         <div class="header__div--areaDeBusca">
             <form action="" class="div__form--buscarProduto">
-                <button class="form__button--pesquisar"><img src="/src/" alt="">Pes</button>
-                <input class="form__input--pesquisar" type="text" name="" id="" placeholder="Pesquisar por produto">
+                <button class="form__button--pesquisar" ><img src="/src/" alt="">Pes</button>
+                <input id="inputPesquisa" class="form__input--pesquisar" type="text" placeholder="Pesquisar por produto">
             </form>
             <div>
-                <button class="div__button--usuario"><img src="/src/imagens/dashboard/usuario.png" alt=""></button>
+                <button class="div__button--usuario"><img id="botaoLogout" src="/src/imagens/dashboard/usuario.png" alt=""></button>
                 <div class="body__div--modalLogout">
-                    <div class="div__div--logoutModal">
+                    <div class="div__div--logoutModal" id="logoutFuncao">
                       <div class="div__div--logoutModalCabecalho">
                         <h3 class="div__h3--modalLogout">Usuário</h3>
+                        <p id="cancelarLogout">X</p>
                       </div>
                       <div class="div__div--buttonModalLogout">
-                        <button class="div__button--ModalLogout">Logout</button>
+                        <button class="div__button--ModalLogout" id="fazerLogout">Logout</button>
                       </div>
                     </div>
                 </div>
@@ -38,13 +39,13 @@
     </header>
 
     <nav class="body__nav">
-      <ul class="nav__ul--categorias">
-        <li class="ul__li ul__li--todos ul__li--selecionado">Todos</li>
-        <li class="ul__li ul__li--panificadora">Panificadora</li>
-        <li class="ul__li ul__li--frutas">Frutas</li>
-        <li class="ul__li ul__li--bebidas">Bebidas</li>
+      <ul class="nav__ul--categorias" id="nav__ul--categorias">
+        <li class="ul__li ul__li--todos ul__li--selecionado" id="Todos">Todos</li>
+        <li class="ul__li ul__li--panificadora" id="Panificadora">Panificadora</li>
+        <li class="ul__li ul__li--frutas" id="Frutas">Frutas</li>
+        <li class="ul__li ul__li--bebidas" id="Bebidas">Bebidas</li>
       </ul>
-      <button class="nav__button--addProduto">Adicionar novo produto</button>
+      <button id="button--addProduto"class="nav__button--addProduto">Adicionar novo produto</button>
     </nav>
 
     <main>
@@ -60,7 +61,7 @@
     </main>
     
     <div class="body__div--mascaraModalStatusAdicionado">
-      <div class="div__div--StatusAdicionadoModal">
+      <div id="StatusAdicionadoModal" class="div__div--StatusAdicionadoModal">
         <div class="div__div--StatusAdicionadoModalCabecalho">
           <h3 class="div__h3--tituloModalStatusAdicionado">Status</h3>
           <button class="div__button--botaoModalFechar">X</button>
@@ -76,7 +77,7 @@
     </div>
     
     <div class="body__div--mascaraModalStatusErro">
-        <div class="div__div--StatusErroModal">
+        <div id="StatusErroModal" class="div__div--StatusErroModal">
           <div class="div__div--StatusErroModalCabecalho">
             <h3 class="div__h3--tituloModalStatusErro">Status</h3>
             <button class="div__button--botaoModalFechar">X</button>
@@ -93,13 +94,13 @@
 
     <!-- MODAL ADD PRODUTO -->
 
-    <div class="body__div--mascaraModalCadastro">
+    <div id="mascaraModalCadastro" class="body__div--mascaraModalCadastro">
     
       <div class="div__div--cadastroModalProduto">
         
         <div class="div__div--cadastroModalCabecalho">
             <h3 class="div__h3--tituloModalCadastro">Cadastro de produto</h3>
-            <button class="div__button--botaoModalFechar">X</button>
+            <button id="botaoModalFechar" class="div__button--botaoModalFechar">X</button>
         </div>
         
         <form class="div__form--formularioModalCadastro">
@@ -134,7 +135,7 @@
               <label for="div__label--imagemModalCadastro">Link da imagem</label>
               <input class="div__input--imagemModalCadastro" placeholder="Inserir link" id="div__label--imagemModalCadastro"/>  
           </div>
-          <button class="div__button--botaoModalCadastro">Cadastrar Produto</button>
+          <button id="botaoModalCadastro" class="div__button--botaoModalCadastro">Cadastrar Produto</button>
         </form>
     
       </div>
@@ -143,7 +144,7 @@
 
     <!-- MODAL EDITAR PRODUTO -->
 
-    <div class="body__div--mascaraModalEditar">
+    <div class="body__div--mascaraModalEditar" id="macaraModalEditar">
       
       <div class="div__div--EditarModalProduto">
         <div class="div__div--EditarModalCabecalho">
@@ -166,16 +167,16 @@
 
            <div class="form__div--catedoriasModalEditar">
                <div class="div__input-box--catedoriasModalEditar">
-                   <label class="div__label--catedoriasModalEditar" for="div_label--panificadoraModalEditar">Panificadora</label>
-                   <input class="div__input--catedoriasModalEditar div__input--panificadoraModalEditar" type="checkbox" name="Panificadora" id="div_label--panificadoraModalEditar"/>  
+                   <label class="div__label--catedoriasModalEditar"  for="div_label--panificadoraModalEditar">Panificadora</label>
+                   <!-- <input data-status="false" class="div__input--catedoriasModalEditar div__input--panificadoraModalEditar" type="checkbox" name="Panificadora" id="div_label--panificadoraModalEditar"/>   -->
                </div>
                <div class="div__input-box--catedoriasModalEditar">
-                   <label class="div__label--catedoriasModalEditar" for="div__label--frutasModalEditar">Frutas</label>
-                   <input class="div__input--catedoriasModalEditar div__input--frutasModalEditar" type="checkbox" name="Frutas" id="div__label--frutasModalEditar"/> 
+                   <label class="div__label--catedoriasModalEditar"  for="div__label--frutasModalEditar">Frutas</label>
+                   <input data-status="false" class="div__input--catedoriasModalEditar div__input--frutasModalEditar" type="checkbox" name="Frutas" id="div__label--frutasModalEditar"/> 
                </div>
                <div class="div__input-box--catedoriasModalEditar">
-                   <label class="div__label--catedoriasModalEditar" for="div__label--bebidasModalEditar">Bebidas</label> 
-                   <input class="div__input--catedoriasModalEditar div__input--bebidasModalEditar" type="checkbox" name="Bebidas" id="div__label--bebidasModalEditar"/>  
+                   <label class="div__label--catedoriasModalEditar" data-status="false"  for="div__label--bebidasModalEditar">Bebidas</label> 
+                   <input data-status="false" class="div__input--catedoriasModalEditar div__input--bebidasModalEditar" type="checkbox" name="Bebidas" id="div__label--bebidasModalEditar"/>  
                </div>
            </div>
 
@@ -200,18 +201,18 @@
 
     <!-- MODAL EXCLUIR PRODUTO -->
 
-    <div class="body__div--mascaraModalApagarExcluir">
+    <div class="body__div--mascaraModalApagarExcluir" id="mascaraModalApagarExcluir">
       
       <div class="div__div--ExcluirModalApagarProduto">
         <div class="div__div--ExcluirModalApagarCabecalho">
             <h3 class="div__h3--tituloModalApagarExcluir">Exclusão de produto</h3>
-            <button class="div__button--botaoModalApagarFechar">X</button>
+            <button class="div__button--botaoModalApagarFechar" id="botaoModalApagarFecharX">X</button>
         </div>
         <div class="div__div--BoxModalApagarExcluir">
             <h3 class="div__h3--nomeModalApagarExcluir">Tem certeza que deseja excluir este produto?</h3>
             <div class="div__div--botaoModalApagarExcluir">
-              <button class="div__button--botaoModalApagarExcluir">Sim</button>
-              <button class="div__button--botaoModalApagarExcluir">Não</button>
+              <button class="div__button--botaoModalApagarExcluir" id="botaoModalApagarExcluirSim">Sim</button>
+              <button class="div__button--botaoModalApagarExcluir" id="botaoModalApagarExcluirNao">Não</button>
             </div>
         </div>
       </div>

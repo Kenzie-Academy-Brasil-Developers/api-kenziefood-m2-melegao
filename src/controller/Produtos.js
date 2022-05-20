@@ -45,9 +45,9 @@ class Produtos {
             },
             body: JSON.stringify(dadosDoProduto)
         });
-
-        const dadosRetornados = await resposta.json();
-
+        const dadosRetornados = resposta.status
+        // const dadosRetornados = await resposta.json();
+        console.log(dadosRetornados)
         return dadosRetornados;
 
     }
@@ -66,25 +66,29 @@ class Produtos {
         });
 
         const dadosRetornados = await resposta.json();
-
+        console.log(dadosRetornados)
         return dadosRetornados;
 
     }
 
-    static async deletarProduto(idDoProduto) {
+    static async deletarProduto() {
 
-        const URL = `${this.BASE_URL}/my/products/${idDoProduto}`;
+        const URL = `https://api-kenzie-food.herokuapp.com/my/products/${localStorage.getItem('idDelete')}`;
 
         const resposta = await fetch(URL, {
             method: "DELETE",
             headers: {
+                "Content-Type": "application/json",
                 "Authorization": `Bearer ${localStorage.getItem('token')}`,
-            }
-        });
+            },
+            body: ""
+        })
+        .then((res) => res.json())
+        .catch((error) => error)
 
-        const dadosRetornados = await resposta.json();
-
-        return dadosRetornados;
+        // const dadosRetornados = await resposta.json();
+        // console.log(dadosRetornados)
+        // return dadosRetornados;
 
     }
 
