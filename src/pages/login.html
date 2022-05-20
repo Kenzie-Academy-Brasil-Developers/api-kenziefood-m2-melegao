@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Kenzie Food</title>
+    <link rel="stylesheet" href="/src/css/login.css"/>
+  </head>
+  
+  <body>
+    
+    <header>
+      <div class="header__div--titulo">
+        <h1>Kenzie <span>Food</span></h1>
+      </div>
+    </header>
+    
+    <form class="body__form--login" id="body__form--login" action="">
+      <h2 class="form__h2--login">Logue na sua conta</h2>
+      <input required name="email" class="form__input" type="email" placeholder="Email" />
+      <input required name="password" class="form__input" type="password" placeholder="Senha" />
+      <button class="form__input--button">Logar</button>
+      <button class="form__input--buttonVoltar" onclick="location.href = document.referrer;">Voltar</button>
+    </form>
+    
+    
+    <script type="module" src="/src/js/login.js"></script>
+  </body>
+</html>

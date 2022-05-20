@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal DashboardEdicao</title>
+    <link rel="stylesheet" href="/api-kenziefood-m2-melegao/src/css/reset.css">
+    <link rel="stylesheet" href="/api-kenziefood-m2-melegao/src/css/editarProdutoModal.css">
+  </head>
+  
+  <body>
+    
+    <div class="body__div--mascaraModalEditar">
+      
+      <div class="div__div--EditarModalProduto">
+        <div class="div__div--EditarModalCabecalho">
+            <h3 class="div__h3--tituloModalEditar">Edição de produto</h3>
+            <button class="div__button--botaoModalFechar">X</button>
+        </div>
+
+        <form class="div__form--formularioModalEditar">
+           <div class="form__div--nomeModalEditar">
+               <label class="div_label--digitarModalNome" for="div_label--digitarModalNome">Nome do Produto</label>
+               <input class="div__input--digitarModalNome" id="div_label--digitarModalNome" placeholder="Digitar o nome"/>
+           </div>
+
+           <div class="form__div--descricaoModalEditar">
+               <label class="div__label--descricaoModalEditar" for="div__label--descricaoModalEditar">Descrição</label>
+               <input class="div_input--descricaoModalEditar" id="div__label--descricaoModalEditar" placeholder="Digitar a descrição"/>
+           </div>
+
+           <h3 class="form__h3--categoriasModalEditar">Categorias</h3>
+
+           <div class="form__div--catedoriasModalEditar">
+               <div class="div__input-box--catedoriasModalEditar">
+                   <label class="div__label--catedoriasModalEditar" for="div_label--panificadoraModalEditar">Panificadora</label>
+                   <input class="div__input--catedoriasModalEditar div__input--panificadoraModalEditar" type="checkbox" name="Panificadora" id="div_label--panificadoraModalEditar"/>  
+               </div>
+               <div class="div__input-box--catedoriasModalEditar">
+                   <label class="div__label--catedoriasModalEditar" for="div__label--frutasModalEditar">Frutas</label>
+                   <input class="div__input--catedoriasModalEditar div__input--frutasModalEditar" type="checkbox" name="Frutas" id="div__label--frutasModalEditar"/> 
+               </div>
+               <div class="div__input-box--catedoriasModalEditar">
+                   <label class="div__label--catedoriasModalEditar" for="div__label--bebidasModalEditar">Bebidas</label> 
+                   <input class="div__input--catedoriasModalEditar div__input--bebidasModalEditar" type="checkbox" name="Bebidas" id="div__label--bebidasModalEditar"/>  
+               </div>
+           </div>
+
+           <div class="form__div--valorModalEditar">
+               <h3 class="div__h3--valorModalEditar"></h3>
+               <label class="div__label--valorModalEditar" for="div__label--valorModalEditar">Valor do produto</label>
+               <input class="div__input--valorModalEditar" placeholder="Digitar o valor aqui" id="div__label--valorModalEditar"/>
+           </div>
+
+           <div class="form__div--imagemModalEditar">
+               <label class="div__label--imagemModalEditar" for="div__label--imagemModalEditar">Link da imagem</label>
+               <input class="div__input--imagemModalEditar" placeholder="Inserir link" id="div__label--imagemModalEditar"/>    
+           </div>
+
+           <button class="div__button--botaoModalExcluir">Excluir</button>
+           <button class="div__button--botaoModalEditar">Salvar alteração</button>
+
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

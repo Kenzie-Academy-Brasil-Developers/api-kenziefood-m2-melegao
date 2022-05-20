@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie Food</title>
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__div--titulo">
+            <h1>Kenzie <span>Food</span></h1>
+        </div>
+        <div class="header__div--loginCadastro" id="header__div--loginCadastro">
+            <p class="div__p--cadastro">Criar conta</p>
+            <p class="div__p--login">Entrar</p>
+        </div>
+        <div class="header__div--pesquisa">
+            <form class="div__form--pesquisa" action="">
+                <button class="form__button--pesquisar"><img src="/src/imagens/botao-pesquisa.png" alt=""></button>
+                <input class="form__input--pesquisar" id="inputPesquisa" type="text" placeholder="Pesquisar por produto"/>
+            </form>
+        </div>
+    </header>
+
+    <div class="body__div--conteudoPrincipal">
+        <main>
+            <nav>
+                <ul class="nav__ul--categorias" id="nav__ul--categorias">
+                    <li class="ul__li ul__li--todos ul__li--selecionado" id="Todos">Todos</li>
+                    <li class="ul__li ul__li--panificadora" id="Panificadora">Panificadora</li>
+                    <li class="ul__li ul__li--frutas" id="Frutas">Frutas</li>
+                    <li class="ul__li ul__li--bebidas" id="Bebidas">Bebidas</li>
+                </ul>
+            </nav>
+            <section class="main__section--container" id="main__section--container">
+            </section>
+        </main>
+        
+        <aside>
+            <div class="aside__div--cabecalhoCarrinho">
+                <h2 class="div__h2--tituloCarrinho">🛒 Carrinho</h2>
+            </div>
+            <div class="aside__div--cardCarrinho">
+                <img class="div__img--produtoCarrinho" src="/src/imagens/panqueca.png" alt="">
+                <div class="div__div--resumoProdutoCarrinho">
+                    <div>
+                        <h3 class="div__h3--tituloProdutoCarrinho">Panqueca de banana com aveia</h3>
+                    </div>
+                    <span class="div__span--categoriaCarrinho">Panificadora</span>
+                    <h3 class="div__h3--precoProdutoCarrinho">R$ 20,00</h3>
+                </div>
+                <button class="div__button--removerItemCarrinho">🗑</button>
+            </div>
+            <div class="aside__div--resumoQuantidade">
+                <h4 class="div__h4--quantidadeTitulo">Quantidade</h4>
+                <h4 class="div__h4--quantidadeItens">5</h4>
+            </div>
+            <div class="aside__div--resumoValor">
+                <h4 class="div__h4--valorTitulo">Total</h4>
+                <h4 class="div__h4--valorTotal">R$ 85,00</h4>
+            </div>
+        </aside>
+
+        <div class="div__div--botaoModalCarrinho">
+            <button class="div__button--modalCarrinho">🛒 Carrinho</button>
+        </div>
+
+        <div class="div__div--modalCarrinho">
+            <div class="div__div--cabecalhoModalCarrinho">
+                <h2 class="div__h2--tituloModalCarrinho">🛒 Carrinho</h2>
+                <p class="div__p--fecharModalCarrinho">X</p>
+            </div>
+            <div class="div__div--conteudoModalCarrinho">
+                <div class="div__div--cardModalCarrinho">
+                    <img class="div__img--produtoModalCarrinho" src="/src/imagens/panqueca.png" alt="">
+                    <div class="div__div--conteudoModalCarrinho">
+                        <div>
+                            <h3 class="div__h3--tituloModalCarrinho">Panqueca de banana com aveia</h3>
+                        </div>
+                        <span class="div__span--categoriaModalCarrinho">Panificadora</span>
+                        <h3 class="div__h3--precoModalCarrinho">R$ 20,00</h3>
+                    </div>
+                    <button class="div__button--botaoExcluirModalCarrinho">🗑</button>
+                </div>
+                <div class="div__div--cardModalCarrinho">
+                    <img class="div__img--produtoModalCarrinho" src="/src/imagens/panqueca.png" alt="">
+                    <div class="div__div--conteudoModalCarrinho">
+                        <div>
+                            <h3 class="div__h3--tituloModalCarrinho">Panqueca de banana com aveia</h3>
+                        </div>
+                        <span class="div__span--categoriaModalCarrinho">Panificadora</span>
+                        <h3 class="div__h3--precoModalCarrinho">R$ 20,00</h3>
+                    </div>
+                    <button class="div__button--botaoExcluirModalCarrinho">🗑</button>
+                </div>
+                <div class="div__div--cardModalCarrinho">
+                    <img class="div__img--produtoModalCarrinho" src="/src/imagens/panqueca.png" alt="">
+                    <div class="div__div--conteudoModalCarrinho">
+                        <div>
+                            <h3 class="div__h3--tituloModalCarrinho">Panqueca de banana com aveia</h3>
+                        </div>
+                        <span class="div__span--categoriaModalCarrinho">Panificadora</span>
+                        <h3 class="div__h3--precoModalCarrinho">R$ 20,00</h3>
+                    </div>
+                    <button class="div__button--botaoExcluirModalCarrinho">🗑</button>
+                </div>
+            </div>
+            <div class="div__div--resumoQuantidadeModalCarrinho">
+                <h4 class="div__h4--quantidadeModalTitulo">Quantidade</h4>
+                <h4 class="div__h4--quantidadeModalItens">5</h4>
+            </div>
+            <div class="div__div--resumoValorModalCarrinho">
+                <h4 class="div__h4--valorModalTitulo">Total</h4>
+                <h4 class="div__h4--valorModalTotal">R$ 60,00</h4>
+            </div>
+        </div>
+        
+    </div>
+   
+    <script type="module" src="/src/js/index.js"></script>
+    
+</body>
+
+</html>
